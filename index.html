@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow M7 | Ascensão Estética & Dominância Facial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '4213674418887119');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=4213674418887119&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#000000',
+                        primary: '#facc15',
+                        accent: '#eab308',
+                        surface: '#0a0a0a',
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        display: ['Syne', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #000000;
+            color: #e5e5e5;
+            overflow-x: hidden;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .glow-primary {
+            box-shadow: 0 0 40px rgba(250, 204, 21, 0.1);
+        }
+
+        .text-glow {
+            text-shadow: 0 0 20px rgba(250, 204, 21, 0.7);
+        }
+
+        .aura-top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 800px;
+            background: radial-gradient(circle at 50% -20%, rgba(250, 204, 21, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .cta-glow {
+            animation: pulse-glow 2s infinite;
+        }
+
+        @keyframes pulse-glow {
+            0% {
+                box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 20px rgba(250, 204, 21, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(250, 204, 21, 0);
+            }
+        }
+
+        .video-container-vertical {
+            position: relative;
+            padding-bottom: 177.77%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container-vertical iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        ::selection {
+            background: #facc15;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body class="bg-black relative">
+    <div class="aura-top"></div>
+
+    <!-- Header -->
+    <header class="relative z-10 py-6 px-4 flex justify-between items-center max-w-6xl mx-auto border-b border-white/5">
+        <div class="text-2xl font-black tracking-tighter italic uppercase">GLOW<span class="text-primary">M7</span>
+        </div>
+        <a href="#oferta"
+            class="hidden md:block bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 px-6 py-2 rounded-full text-sm font-bold transition-all">
+            Iniciar Ascensão
+        </a>
+    </header>
+
+    <main class="relative z-10">
+        <!-- Hero Section -->
+        <section class="pt-20 pb-12 px-4 text-center">
+            <div
+                class="inline-block px-4 py-1 rounded-full glass border-primary/20 text-primary text-[10px] md:text-xs font-black tracking-widest uppercase mb-6 animate-pulse">
+                Saindo da Mediocridade Visual
+            </div>
+            <h1 class="text-4xl md:text-6xl font-display font-extrabold mb-6 leading-tight tracking-tight uppercase">
+                DOMINE SUA <span class="text-primary text-glow italic">GENÉTICA</span><br>
+                ASCENSÃO <span class="text-white underline decoration-primary">TOTAL</span>
+            </h1>
+            <p class="text-neutral-400 max-w-3xl mx-auto text-lg md:text-xl mb-12 leading-relaxed">
+                O Protocolo Glow M7 é a ferramenta definitiva de <span class="text-white font-bold">Lookxmaxxing</span>.
+                Não é sorte, é ciência estética. Forçamos sua melhor versão à existência.
+            </p>
+
+            <!-- VSL Section -->
+            <div class="max-w-[400px] mx-auto relative group mb-12">
+                <div
+                    class="absolute -inset-1 bg-gradient-to-r from-primary/30 to-accent/30 rounded-2xl blur-xl opacity-20 group-hover:opacity-40 transition duration-1000">
+                </div>
+                <div class="relative glass rounded-2xl p-1 glow-primary">
+                    <div class="video-container-vertical">
+                        <iframe id="panda-3d02a26c-b274-4f5c-a398-abf3c8cef268"
+                            src="https://player-vz-dafcf77f-4d7.tv.pandavideo.com.br/embed/?v=3d02a26c-b274-4f5c-a398-abf3c8cef268"
+                            style="border:none;"
+                            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+                            allowfullscreen=true fetchpriority="high"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-4">
+                <a href="#oferta"
+                    class="bg-primary hover:bg-accent text-black font-black text-xl px-12 py-6 rounded-xl transition-all hover:scale-105 active:scale-95 cta-glow uppercase italic flex items-center gap-3">
+                    QUERO MEU PROTOCOLO AGORA
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <p class="text-neutral-500 text-xs font-medium uppercase tracking-widest flex items-center gap-2">
+                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z">
+                        </path>
+                    </svg>
+                    Acesso imediato • Vagas Limitadas por Lote
+                </p>
+            </div>
+        </section>
+
+        <!-- Social Proof Stats -->
+        <section class="py-12 border-y border-white/5 bg-black">
+            <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-black text-primary mb-1">+1.500</div>
+                    <div class="text-xs text-neutral-500 uppercase tracking-widest font-bold">Transformações Comprovadas
+                    </div>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-white mb-1">100%</div>
+                    <div class="text-xs text-neutral-500 uppercase tracking-widest font-bold">Prático e direto</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-white mb-1">Elite</div>
+                    <div class="text-xs text-neutral-500 uppercase tracking-widest font-bold">Padrão Incontestável</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-black text-primary mb-1">GOAT</div>
+                    <div class="text-xs text-neutral-500 uppercase tracking-widest font-bold">Resultados Reais</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pain Point Section -->
+        <section class="py-24 px-4 bg-surface relative overflow-hidden">
+            <div class="max-w-4xl mx-auto text-center relative z-10">
+                <h2 class="text-3xl md:text-5xl font-display font-extrabold mb-8 uppercase italic leading-tight">
+                    VOCÊ JÁ FOI <span class="text-primary italic">TROCADO</span> POR ALGUÉM <br
+                        class="hidden md:block text-glow"> MAIS BONITO QUE VOCÊ?
+                </h2>
+                <p class="text-neutral-400 text-lg md:text-xl mb-12 leading-relaxed">
+                    A verdade dói, mas a mediocridade dói mais. O mundo trata melhor quem tem uma estética superior. É
+                    hora de inverter o jogo e assumir o controle da sua imagem.
+                </p>
+                <div class="glass p-8 rounded-3xl border-primary/20 max-w-2xl mx-auto flex flex-col items-center gap-4">
+                    <svg class="w-10 h-10 text-primary opacity-50" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 15v2m0 0v2m0-2h2m-2 0H10m4-11a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                    </svg>
+                    <p class="text-white text-xl md:text-2xl font-bold italic uppercase tracking-tight text-center">
+                        "Suas <span class="text-primary">INSEGURANÇAS</span> se tornarão apenas lembranças"
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Method Section -->
+        <section class="py-24 px-4 max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-display font-extrabold mb-8 leading-tight uppercase italic">
+                        O SEGREDO POR TRÁS DO <span class="text-primary">MÉTODO</span>
+                    </h2>
+                    <p class="text-neutral-400 text-lg mb-8 leading-relaxed">
+                        Um método direto, 100% validado para transformar sua aparência e elevar sua confiança ao nível
+                        máximo. Sem enrolação, sem teorias inúteis. Apenas resultados.
+                    </p>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 border border-primary/20">
+                                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <span class="text-neutral-300 font-semibold italic">Técnicas práticas que realçam seus
+                                traços naturais e te fazem se destacar onde quer que esteja.</span>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 border border-primary/20">
+                                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <span class="text-neutral-300 font-semibold italic">Resultados reais de quem aplicou o
+                                Método GlowM7 e mudou de patamar.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-primary/10 blur-3xl rounded-full"></div>
+                    <img src="assets/imgi_1_001_new.jpg" class="relative rounded-2xl border border-white/10 shadow-2xl"
+                        alt="Glow M7 Method">
+                    <div
+                        class="absolute bottom-4 right-4 glass px-4 py-2 rounded-lg text-[10px] font-black uppercase tracking-widest text-primary border border-primary/20">
+                        Aluno: @jpp_carreiro</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Evolution Videos -->
+        <section class="py-24 px-4 max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-display font-extrabold text-center mb-6 uppercase italic">
+                METAMORFOSES <span class="text-primary">REAIS</span>
+            </h2>
+            <p
+                class="text-neutral-500 text-center mb-16 max-w-2xl mx-auto uppercase font-black text-xs tracking-widest">
+                O próximo será você!
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Video 1 -->
+                <div class="glass p-2 rounded-2xl border-white/5 hover:border-primary/20 transition-all">
+                    <div class="video-container-vertical">
+                        <iframe id="panda-2c7edd50-5612-4863-bf7b-cfb17d425d0e"
+                            src="https://player-vz-dafcf77f-4d7.tv.pandavideo.com.br/embed/?v=2c7edd50-5612-4863-bf7b-cfb17d425d0e"
+                            style="border:none;"
+                            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+                            allowfullscreen=true></iframe>
+                    </div>
+                    <div class="p-4 text-center">
+                        <p class="text-white font-black text-sm uppercase italic">@ramirez.mts</p>
+                        <p class="text-neutral-500 text-[10px] uppercase font-bold tracking-widest">Aluno</p>
+                    </div>
+                </div>
+                <!-- Video 2 -->
+                <div class="glass p-2 rounded-2xl border-white/5 hover:border-primary/20 transition-all">
+                    <div class="video-container-vertical">
+                        <iframe id="panda-d9028758-3207-4678-8d1a-1fbf729f16b1"
+                            src="https://player-vz-dafcf77f-4d7.tv.pandavideo.com.br/embed/?v=d9028758-3207-4678-8d1a-1fbf729f16b1"
+                            style="border:none;"
+                            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+                            allowfullscreen=true></iframe>
+                    </div>
+                    <div class="p-4 text-center">
+                        <p class="text-white font-black text-sm uppercase italic">@jpp_carreiro</p>
+                        <p class="text-neutral-500 text-[10px] uppercase font-bold tracking-widest">Aluno</p>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="glass p-2 rounded-2xl border-white/5 hover:border-primary/20 transition-all">
+                    <div class="video-container-vertical">
+                        <iframe id="panda-b16d85d1-800c-4d1f-b54b-c941391d2b34"
+                            src="https://player-vz-dafcf77f-4d7.tv.pandavideo.com.br/embed/?v=b16d85d1-800c-4d1f-b54b-c941391d2b34"
+                            style="border:none;"
+                            allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
+                            allowfullscreen=true></iframe>
+                    </div>
+                    <div class="p-4 text-center">
+                        <p class="text-white font-black text-sm uppercase italic">Metamorfose #3</p>
+                        <p class="text-neutral-500 text-[10px] uppercase font-bold tracking-widest">Aluno</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-24 px-4 max-w-6xl mx-auto">
+            <h2 class="text-4xl font-display font-extrabold text-center mb-16 uppercase italic">
+                Depoimentos de <span class="text-primary">Alguns Alunos</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="relative">
+                    <img src="assets/imgi_8_prova_social_1.png"
+                        class="rounded-xl glass p-2 hover:scale-105 transition-all" alt="Depoimento 1">
+                    <div class="mt-4 text-center">
+                        <p class="text-white font-black text-sm uppercase italic">Mikael Aurélio</p>
+                        <p class="text-neutral-500 text-[10px] uppercase font-bold tracking-widest">Aluno</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="assets/imgi_9_prova_social_2.png"
+                        class="rounded-xl glass p-2 hover:scale-105 transition-all" alt="Depoimento 2">
+                    <div class="mt-4 text-center">
+                        <p class="text-white font-black text-sm uppercase italic">Vinícios Santos</p>
+                        <p class="text-neutral-500 text-[10px] uppercase font-bold tracking-widest">Aluno</p>
+                    </div>
+                </div>
+                <img src="assets/imgi_10_prova_social_3.png" class="rounded-xl glass p-2 hover:scale-105 transition-all"
+                    alt="Depoimento 3">
+                <img src="assets/imgi_11_prova_social_4.png" class="rounded-xl glass p-2 hover:scale-105 transition-all"
+                    alt="Depoimento 4">
+            </div>
+        </section>
+
+        <!-- Offer Section -->
+        <section id="oferta" class="py-24 px-4 md:py-32">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12 md:mb-16">
+                    <h2 class="text-3xl md:text-6xl font-display font-extrabold uppercase italic tracking-tighter">
+                        ESCOLHA SEU <span class="text-primary">NÍVEL</span></h2>
+                    <p class="text-neutral-500 mt-4 uppercase font-black text-[10px] tracking-widest">Inicie sua
+                        ascensão agora</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
+                    <!-- Plano Básico -->
+                    <div
+                        class="glass rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-12 border border-white/10 relative overflow-hidden flex flex-col hover:border-primary/20 transition-all">
+                        <div class="mb-6 md:mb-8">
+                            <h3 class="text-xl md:text-2xl font-black uppercase tracking-tighter text-neutral-400">Plano
+                                Básico</h3>
+                            <p class="text-neutral-600 font-bold uppercase text-[9px] md:text-[10px] tracking-[0.2em]">O
+                                essencial para a Metamorfose</p>
+                        </div>
+
+                        <div class="mb-8 md:mb-10">
+                            <p class="text-neutral-500 text-[10px] md:text-xs font-bold uppercase">Por apenas:</p>
+                            <div class="text-white text-4xl md:text-5xl font-black italic tracking-tighter mt-1">
+                                <span class="text-xl font-bold not-italic">R$</span> 24,90
+                            </div>
+                        </div>
+
+                        <ul class="space-y-4 mb-10 md:mb-12 flex-grow">
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-neutral-300 font-bold text-[11px] md:text-xs uppercase">Protocolo Glow
+                                    M7 Completo</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-neutral-300 font-bold text-[11px] md:text-xs uppercase italic">Manual
+                                    do Mewing Avançado</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span
+                                    class="text-neutral-300 font-bold text-[11px] md:text-xs uppercase italic">Checklist
+                                    Skin & Hair Care</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-neutral-300 font-bold text-[11px] md:text-xs uppercase">Guia Shaving &
+                                    Barba de Elite</span>
+                            </li>
+                            <li class="flex items-center gap-3 opacity-30">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-neutral-600 shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span
+                                    class="text-neutral-600 font-bold text-[11px] md:text-xs uppercase italic line-through">Protocolo
+                                    Hunter Eyes</span>
+                            </li>
+                        </ul>
+
+                        <a href="https://pay.kiwify.com.br/xxxxx"
+                            class="w-full bg-neutral-800 hover:bg-neutral-700 text-white font-black text-xs md:text-sm py-4 md:py-5 rounded-xl md:rounded-2xl flex items-center justify-center gap-2 transition-all uppercase italic">
+                            Escolher Básico
+                        </a>
+                    </div>
+
+                    <!-- Plano Elite (RECOMENDADO) -->
+                    <div
+                        class="glass rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-12 border-2 border-primary relative overflow-hidden flex flex-col glow-primary bg-primary/5 md:scale-105 z-10">
+                        <div
+                            class="absolute top-4 right-4 bg-primary text-black px-3 py-1 rounded-full text-[7px] md:text-[8px] font-black uppercase tracking-widest">
+                            Recomendado</div>
+
+                        <div class="mb-6 md:mb-8">
+                            <h3 class="text-xl md:text-2xl font-black uppercase tracking-tighter text-white">Plano <span
+                                    class="text-primary italic">Elite</span></h3>
+                            <p class="text-primary/70 font-bold uppercase text-[9px] md:text-[10px] tracking-[0.2em]">O
+                                Protocolo Completo (Aura Max)</p>
+                        </div>
+
+                        <div class="mb-8 md:mb-10">
+                            <p class="text-primary/60 text-[10px] md:text-xs font-bold uppercase">Por apenas:</p>
+                            <div
+                                class="text-primary text-5xl md:text-7xl font-black italic tracking-tighter mt-1 text-glow">
+                                <span class="text-2xl md:text-3xl font-bold not-italic">R$</span> 37,90
+                            </div>
+                        </div>
+
+                        <ul class="space-y-4 mb-10 md:mb-12 flex-grow">
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-white font-bold text-[11px] md:text-xs uppercase italic">TUDO DO PLANO
+                                    BÁSICO+</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-white font-bold text-[11px] md:text-xs uppercase italic">Comunidade
+                                    VIP Exclusiva</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-white font-bold text-[11px] md:text-xs uppercase italic">Protocolo
+                                    Hunter Eyes</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-white font-bold text-[11px] md:text-xs uppercase italic">Guia de
+                                    Fragrâncias & Aura</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 text-primary shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-white font-bold text-[11px] md:text-xs uppercase italic">Consultoria
+                                    Individual via Chat</span>
+                            </li>
+                        </ul>
+
+                        <a href="https://pay.kiwify.com.br/xxxxx"
+                            class="w-full bg-primary hover:bg-accent text-black font-black text-base md:text-xl py-5 md:py-6 rounded-xl md:rounded-2xl flex items-center justify-center gap-2 md:gap-3 transition-all hover:scale-[1.02] shadow-2xl cta-glow uppercase italic">
+                            Garantir Acesso Elite
+                            <svg class="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guarantee -->
+        <section class="pb-32 px-4 text-center">
+            <div class="max-w-2xl mx-auto glass p-12 rounded-3xl border-white/5">
+                <svg class="w-16 h-16 mx-auto mb-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                    </path>
+                </svg>
+                <h3 class="text-2xl font-black mb-4 uppercase italic">Ascensão Sem Riscos</h3>
+                <p class="text-neutral-500 leading-relaxed italic">
+                    Você tem 7 dias para testar o protocolo. Se não sentir que sua dominância facial e estética estão
+                    ascendendo, devolvemos cada centavo. O risco é nosso.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative z-10 py-12 border-t border-white/5 text-center text-neutral-700 text-sm">
+        <div class="mb-6 font-black tracking-tighter italic uppercase text-xl">GLOW<span
+                class="text-primary/50">M7</span></div>
+        <div class="flex justify-center gap-6 mb-8">
+            <a href="https://www.instagram.com/zarielm7/" target="_blank"
+                class="text-neutral-500 hover:text-primary transition-all flex items-center gap-2 uppercase font-black tracking-widest text-[10px]">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+                Instagram
+            </a>
+        </div>
+        <p class="uppercase tracking-widest text-[10px]">&copy; 2026 Protocolo Glow M7. All Rights Reserved.</p>
+        <p
+            class="mt-2 text-[10px] uppercase tracking-widest font-black text-primary/30 underline decoration-primary/10">
+            Mewing • Lookxmaxxing • Aura • Elite</p>
+    </footer>
+</body>
+
+</html>
